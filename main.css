@@ -1,0 +1,99 @@
+
+@font-face {
+  font-family: 'Pacifico';
+  font-style: normal;
+  font-weight: 400;
+  src: url(fonts/pacifico.woff2) format('woff2');
+}
+
+@font-face {
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 400;
+  src: url(fonts/oswald.woff2) format('woff2');
+}
+
+input{
+	width: 100%;
+	font-family: oswald;
+	text-align: center;	
+}
+
+label{
+	display: none;
+}
+
+
+@media screen and (min-width: 35rem) and (max-width: 60rem){
+.name{
+width: 50%;	
+float: left;
+}
+
+.website{
+width: 50%;
+float: left;	
+}
+
+.email{
+width:50%;
+float: right;	
+}
+
+.password{
+width:50%;
+float: right;
+	
+}
+
+label{
+display: block;
+text-align: center;
+color: orange;
+font-weight: bold;
+}
+
+}
+
+
+@media (min-width: 60rem){
+	.name{
+		width: 40%;
+		float: left;
+	}
+	
+	.website{
+		width: 40%;
+		float: left;	
+	}
+	
+	.email{
+	width: 40%;
+	float: left;	
+	}
+	
+	.password{
+	width: 40%;
+	float: left;	
+	}
+	
+	.name label{
+	display: block;
+	float: left;
+	}
+	
+	.email label{
+	display: block;
+	float: left;
+	}
+	
+	.website label{
+	display: block;
+	float: left;
+	}
+	
+	.password label{
+	display: block;
+	float: left;
+	}
+}
